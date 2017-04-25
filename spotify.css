@@ -1,0 +1,386 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/background.png), linear-gradient(50deg,#BF3387 0,#7122AA 100%);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 0;
+  padding: 20px;
+}
+
+.btn{
+  border-radius: 100px;
+  background-color: #6207E3;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.btn:hover{
+  opacity: 1;
+  color: white;
+}
+
+
+.btn.transparent{
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.btn.transparent:hover{
+  background-color: white;
+  color: black;
+}
+.navbar .logo-spotify{
+  padding: 0;
+}
+.navbar .logo-spotify img{
+  width: 150px;
+  object-fit: contain;
+
+}
+
+.navbar .navbar-nav li .menu-basic {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #8EF0E1;
+}
+
+.carousel {
+  height: 90vh;
+}
+
+.carousel-inner h2{
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+header .savoirspoti {
+  color: #83CABE;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.avanspotify {
+  background-color: white;
+  padding:100px 0;
+}
+
+.avanspotify img {
+width: 277px;
+height: 277px;
+}
+
+.avanspotify h3 {
+  color: #7C25F8;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.avanspotify p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.avanspotify .textviolet {
+  padding-left: 100px;
+}
+
+.phonecote h3 {
+  color: #9BF0E1;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.phonecote .telwhite {
+  color: white;
+}
+
+.phonecote p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.phonecote .phonewhite {
+  background-image: url(img/iphone-klein-purple.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  overflow: hidden;
+  transform: rotate(30deg);
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.phonecote .phonewhite img {
+  padding-top: 75px;
+  padding-left: 20px;
+}
+.appareil {
+  background-color: #232323;
+  width: 100%;
+}
+
+.appareil img {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.appareil ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.appareil h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 60px 0;
+}
+
+.appareil ul li {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.appareil ul li span {
+  color: #7625E9;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.rate .musique {
+  padding-left: 20px;
+}
+.rate h2 {
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.rate .intro {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.rate h3 {
+  color: #9DF0E1;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.rate p {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.rate span {
+  color: white;
+}
+
+.rate ul li {
+  list-style: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.rate .offre {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.rate .offre a {
+  text-decoration: none;
+  color: #9DF0E1;
+}
+
+.rate .android {
+  background-image: url(img/iphone-klein-purple.png);
+  background-repeat: no-repeat;
+  height: 730px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+
+}
+
+.rate .android img {
+  height: 700px;
+  padding-top: 75px;
+  width: 79%;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: black;
+  padding-top: 100px;
+}
+
+footer img {
+  width: 132px;
+  height: 40px;
+}
+
+footer li {
+  list-style: none;
+  color: #919496;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .maj {
+  text-transform: uppercase;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer  ul li a i {
+  color: white;
+}
+
+footer .logo {
+  display: flex;
+}
+
+footer .logo .rond {
+  background-color:#2E2F33;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 10px;
+  height: 54px;
+  width: 54px;
+}
+
+footer .hoverfooter:hover {
+  color: #9DF0E1;
+  text-decoration: none;
+}
+
+footer  ul li a i:hover {
+  color: #9DF0E1;
+}
+
+footer .logo li {
+  padding-right: 10px;
+}
+
+footer .lastlist li a {
+  color: #919496;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+footer .lastlist {
+  display: flex;
+  justify-content:center;
+}
+
+footer .lastlist li {
+  padding-right: 10px;
+
+}
+
+footer .french a {
+  font-size: 12px;
+  color: #919496;
+}
+
+footer .lastlist li a:hover {
+  color: #9DF0E1;
+  text-decoration: none;
+}
+
+footer .french a:hover {
+  color: #9DF0E1;
+  text-decoration: none;
+}
+
+footer .end {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+footer .french img {
+  height: 18px;
+  width: 18px;
+}
+
+
+@media only screen and (max-width : 770px) {
+  .avanspotify img {
+    width: 224px;
+    height: 224px;
+  }
+
+  .avanspotify .invisibl {
+    display: none;
+  }
+
+  .rate .android img {
+    width: 50%;
+  }
+
+  .appareil ul {
+    display: none;
+  }
+
+  .phonecote .phonewhite {
+    margin: 120px;
+  }
+}
+
+
+@media only screen and (max-width : 540px) {
+  .carousel-inner h2 {
+    font-size: 50px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .rate h2 {
+    font-size: 50px;
+  }
+
+}
